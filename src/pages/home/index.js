@@ -36,6 +36,9 @@ class Home extends PureComponent {
     };
 
     componentDidMount() {
+        console.log(1);
+        console.log(2);
+        debugger;
         this.props.changeHomeData();
         this.bindEvent();
     }

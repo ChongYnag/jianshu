@@ -76,9 +76,13 @@ app.use((req, res, next) => {
               </noscript>
               <div id="root">${frontComponents}</div>
               <script src="${buildPath.files['main.js']}"></script>
+              <script src="${buildPath.files['runtime~main.js']}"></script>
+              <script src="${buildPath.files['static/js/2.bd1df3e3.chunk.js']}"></script>
           </body>
       </html>`
       res.send(_frontHtml)
+      
+      
     // return res.sendFile(path.resolve('build/index.html'))
 })
 app.use('/', express.static(path.resolve('build')))
