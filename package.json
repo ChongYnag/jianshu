@@ -7,7 +7,7 @@
     "@typescript-eslint/eslint-plugin": "1.13.0",
     "@typescript-eslint/parser": "1.13.0",
     "asset-require-hook": "^1.2.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-cli": "^7.0.0-beta.3",
     "babel-eslint": "10.0.2",
     "babel-loader": "8.0.6",
